@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <%- include layouts/header2.ejs %>
+    <div class="container__all" id="container_all">
+      <div class="cover">
+        <div class="container__cover">
+            <div class="container__info">
+                <h1>T & C</h1>
+                <h2>WEEK</h2><br><br>
+                <h1>OBJETIVOS</h1>
+                <p>☼ Fomentar   la integración entre estudiantes, egresados,
+                  docentes y administrativos.</p>
+                <p>☼ Promover la tecnología, innovación, creatividad,
+                    trabajo en equipo, liderazgo, comunicación, toma de
+                    decisiones y otras habilidades en los estudiantes,
+                    como parte de su formación integral</p>                     
+            </div>
+            <div class="container__vector"><br><br><br><br>
+              <video class="video-2"  autoplay  loop>
+                <source src="images/OBJETIVOS.mp4" type="video/mp4">
+              </video>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="cover">
+        <div class="container__cover">
+          <div class="container__info">
+            <h1>T & C</h1>
+            <h2>WEEK</h2><br><br>
+            <h1>FINALIDAD</h1>
+            <p>☼ Competir</p>
+            <p>☼ Compartir</p>
+            <p>☼ Crear</p>
+            <p>☼ Integrarnos</p>                             
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/ALTERNA1-1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/ALTERNA1-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/ALTERNA1-3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          
+        </div> 
+        </div>
+      </div>
+      <%- include layouts/footer.ejs %>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <%- include layouts/header2.ejs %>
+    <div class="container__all" id="container_all">
+      <div class="cover">
+        <div class="container__cover">
+          <div class="container__register">
+            <h1>T & C</h1>
+            <h2>WEEK</h2>
+            <h1>INSCRIPCION</h1>
+            <form class="row g-3 needs-validation form__label" novalidate>
+
+              <div class="col-md-12">
+                <label for="validationCustom02" class="form-label">Código:</label>
+                <input type="number" class="form-control" id="codigo" placeholder="Código de Tecsup" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+                <div class="col-md-12">
+                <label for="validationCustom01" class="form-label" >Nombre:</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Nombres Completos" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label">Apellidos:</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Apellidos Completos" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label">DNI:</label>
+                  <input type="number" class="form-control" id="validationCustom02" placeholder="Documento de Identidad" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label">Correo:</label>
+                  <input type="email" class="form-control" id="validationCustom02" placeholder="Correo Institucional" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label">Carrera:</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Área Academica" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label">Concurso:</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Concurso al que participara" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+              </form>              
+          </div>
+        </div>
+      </div>
+    </div>
+      <%- include layouts/footer.ejs %>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

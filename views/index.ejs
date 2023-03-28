@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <%- include layouts/header.ejs %>
+  <div class="container__all" id="container_all">
+    <div class="cover">
+        <div class="container__cover">
+            <div class="container__info">
+                <h1>T&C</h1>
+                <h2>WEEK</h2><br>
+                <p>El T&C Week es un evento importante que se realiza una vez al año para fomentar el arte, la cultura, la tecnología y la integración entre los estudiantes y la comunidad educativa en TECSUP.</p>
+                <a class="btn btn-sm btn-outline-primary text-center" href="AyR.html" role="button">•-•-•ACTIVIDADES y RETOS•-•-•</a>
+              </div>
+            <div class="container__vector">
+                <img src="images/LogoT&C.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+      <video class="video" autoplay loop >
+        <source src="/images/TC2022.mp4" autoplay loop type="video/mp4">
+      </video>
+    </div>
+    <div class="album py-5 ">
+      <div class="container">
+        <h1 class="h1_concursos py-3">CONCURSOS</h1><br>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="svg bd-placeholder-img card-img-top" width="100%"  height="30%" src="images/T&C2.jpg"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>      
+              <div class="card-body">
+                <h1 class="h1cardbody">Olimpiadas</h1>
+                <p class="card-text">Promover el deporte y la sana competencia entre los diversos grupos participantes.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="olimpiada.html" role="button">Informacion</a>
+                  </div>
+                  <small class="text-danger">Miércoles 26 octubre</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="svg bd-placeholder-img card-img-top" width="100%"  height="30%" src="images/CT.png"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+              <div class="card-body">
+                <h1 class="h1cardbody">Cortometrajes</h1>
+                <p class="card-text">Incentivar la creatividad y la imaginación a través del lenguaje audiovisual. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="cortometraje.html" role="button">Informacion</a>
+                  </div>
+                  <small class="text-danger">Lunes 24 octubre</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="svg bd-placeholder-img card-img-top" width="100%"  height="210px" src="images/DF.png"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+              <div class="card-body">
+                <h1 class="h1cardbody">Concurso de Danzas F.</h1>
+                <p class="card-text">Promover e incentivar la práctica de la danza, el trabajo en equipo y la creatividad.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="concursodedanzas.html" role="button">Informacion</a>
+                  </div>
+                  <small class=" text-danger">Viernes 28 octubre</small>
+                </div>
+              </div>
+            </div>
+          </div>     
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="svg bd-placeholder-img card-img-top" width="100%"  height="30%" src="images/VIDEO1-2.png"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+              <div class="card-body">
+                <h1 class="h1cardbody">Videojuegos</h1>
+                <p class="card-text">Incentivar la práctica de videojuegos como un medio para mejorar nuestras capacidades cognitivas y habilidades.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="videojuegos.html" role="button">Informacion</a>
+                  </div>
+                  <small class="text-danger">FINAL: Jueves 27 octubre</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="svg bd-placeholder-img card-img-top" width="100%" height="100%" src="images/KD.png"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+              <div class="card-body">
+                <h1 class="h1cardbody">Karaduo</h1>
+                <p class="card-text">Concurso de canto que promueve el desarrollo y conocimiento del idioma inglés y las habilidades musicales.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <a class="btn btn-sm btn-outline-dark" href="karaduo.html" role="button">Informacion</a>
+                  </div>
+                  <small class="text-danger">Jueves 27 octubre</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="svg bd-placeholder-img card-img-top" width="100%"  height="30%" src="images/MC.png"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+              <div class="card-body">
+                <h1 class="h1cardbody">Mi Carrera Enamora</h1>
+                <p class="card-text">Difundir e incentivar la creatividad y la innovación a través del desarrollo de proyectos con proyección social.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="micarreraenamora.html" role="button">Informacion</a>
+                  </div>
+                  <small class=" text-danger">Martes 25 octubre</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>      
+    <!-- ------- -->
+    <div class="cover">
+      <div class="container__cover">
+        <div class="container__info">
+            <h1>QUE SIGUE...</h1><br>
+            <h6>• Cada equipo (departamento) se debe organizar.</h6>
+            <h6>• Elegir 02 profesores y 02 estudiantes líderes.</h6>
+            <h6>• Asistir a reunión (v-p) para explicar las bases de cada concurso.</h6>
+            <h6>• Difusión entre el alumnado, incluir a todos los ciclos.</h6>
+            <h6>• Coordinaciones con el equipo organizador.</h6>
+            <h6>• Elección de participantes según bases.</h6>
+            <h6>• Inscripciones en las fechas establecidas en el drive.</h6>
+            <h6>• Dar a conocer el evento entre el alumnado que no</h6>
+            <h6>• Conoce el T&C Week presencial.</h6>
+              <div>
+                <a class="btn btn-sm btn-outline-primary text-center" style="margin: 10px" href="Puntuación.html" role="button">•-•-• PUNTUAJE GENERAL •-•-•</a><br>
+                <a class="btn btn-sm btn-outline-primary text-center" style="margin: 10px" href="Lideres.html" role="button">•-•-• LIDERES POR EQUIPOS •-•-•</a><br>
+                <a class="btn btn-sm btn-outline-primary text-center" style="margin: 10px" href="Equipos.html" role="button">•-•- EQUIPOS PARTICIPANTES -•-•</a>
+              </div>
+          </div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/ALTERNA1-1.png" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ALTERNA1-2.png" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ALTERNA1-3.png" class="d-block w-100 " alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            
+          </div> 
+      </div>
+    </div>
+    <%- include layouts/footer.ejs %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
